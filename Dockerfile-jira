@@ -8,7 +8,7 @@ ENV JAVA_PKG      ./java/server-jre-8u*-linux-x64.tar.gz
 ENV JAVA_HOME     /usr/java/default
 ENV JIRA_HOME     /var/atlassian/application-data/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
-ENV CONF_VERSION  7.2.4
+ENV CONF_VERSION  7.3.5
 
 LABEL Description="This image is used to start Atlassian Jira" Vendor="Atlassian" Version="${CONF_VERSION}"
 
